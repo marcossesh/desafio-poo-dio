@@ -12,8 +12,14 @@ public class Mentorias extends Conteudos {
     }
 
     @Override
-    public double calcularXp() {
-        return XP_PADRAO + 20d;
+    
+    public String toString() {
+        return "Mentorias{" +
+                "titulo='" + getTitulo() + '\'' +
+                ", descricao='" + getDescricao() + '\'' +
+                ", dataMentoria='" + dataMentoria + '\'' +
+                ", horarioMentoria='" + horarioMentoria + '\'' +
+                '}';
     }
 
     public String getDataMentoria() {

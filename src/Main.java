@@ -20,7 +20,6 @@ public class Main {
         System.out.println("Curso: " + curso.getTitulo() + ", Nível: " + curso.getNivel());
         curso.inscreverDev(dev);
         System.out.println("Devs inscritos no curso: " + curso.getDevsInscritos().size());
-        System.out.println("Mentoria: " + mentoria.getTitulo() + ", Data: " + mentoria.getDataMentoria() + ", Horário: " + mentoria.getHorarioMentoria());
-        System.out.println("XP da Mentoria: " + mentoria.calcularXp());
+        System.out.println("Mentoria: " + mentoria.toString());
     }
 }

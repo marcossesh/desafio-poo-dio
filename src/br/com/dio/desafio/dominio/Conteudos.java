@@ -3,7 +3,6 @@ package br.com.dio.desafio.dominio;
 public abstract class Conteudos {
     private String titulo;
     private String descricao;
-    protected static final double XP_PADRAO = 10d;
 
     public Conteudos(String titulo, String descricao) {
         this.titulo = titulo;
@@ -24,10 +23,6 @@ public abstract class Conteudos {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
-    }
-
-    public double calcularXp() {
-        return XP_PADRAO;
     }
 
 }
